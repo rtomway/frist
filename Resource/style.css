@@ -1,0 +1,73 @@
+﻿/*登录界面*/
+QPushButton{
+    border:none;
+}
+QPushButton#closebtn {
+    border:none;
+    border-image: url(':/Resource/close.png');
+}
+QPushButton#closebtn:hover {
+    border-image: url(':/Resource/close-hover.png');
+}
+QLineEdit{
+    border:none;
+    border-bottom:1px solid red;
+    height:40px;
+    font:normal 12pt '微软雅黑';
+}
+
+QCheckBox#rememberpwd{
+    color:rgb(127,127,127);
+}
+QCheckBox::indicator {
+    border-image: url(':/Resource/uncheck.png');
+    color:rgb(128, 193, 241);
+}
+QCheckBox::indicator:checked {
+    border-image: url(':/Resource/check.png');
+}
+QCheckBox#rememberpwd:checked{
+    color:rgb(0, 0, 0);
+}
+QPushButton#RegisterBtn{
+    color:rgb(127,127,127);
+}
+    QPushButton#RegisterBtn:hover {
+        color: rgb(0,0,0);
+        font-size: 11pt;
+    }
+QPushButton#LoginBtn{
+    background-color:rgb(43,61,82);
+    border-radius:15px;
+    color:white;
+    height:36px;
+    font:normal 12pt bold;
+}
+    QPushButton#LoginBtn:hover {
+        background-color: rgb(99,133,173);
+        font-size: 13pt;
+    }
+/*注册界面*/
+QPushButton#registerBtn{
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    background-color:red;
+    color:white;
+    height:36px;
+    width:150px;
+}
+    QPushButton#registerBtn:hover {
+       font-size:11pt;
+    }
+QPushButton#reLoginBtn {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(43,61,82);
+    color: white;
+    height: 36px;
+    width:80px;
+}
+    QPushButton#reLoginBtn:hover {
+        background-color: rgb(99,133,173);
+        font-size: 11pt;
+    }
